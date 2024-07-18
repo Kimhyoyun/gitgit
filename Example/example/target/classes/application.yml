@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: example
+  datasource: 
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://192.168.0.15:1433;encrypt=false;databaseName=WMS_SCM
+    username: wmsapp
+    password: wmsapp@1234
